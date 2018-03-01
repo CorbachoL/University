@@ -1,0 +1,14 @@
+# Nombre del proyecto
+PROJECT_NAME           = "Práctica 4. Implementación y uso de un grafo basado en la matriz de adyacencia"
+
+# Idioma: español
+OUTPUT_LANGUAGE        = Spanish
+
+# Muestra la parte privada
+EXTRACT_PRIVATE        = YES
+
+# Muestra los ficheros con extensión "cpp"
+SOURCE_BROWSER         = YES
+
+# No se genera la documentación en latex
+GENERATE_LATEX         = NO
