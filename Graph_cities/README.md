@@ -1,4 +1,7 @@
 
+"Graph of cities in C++"
+==========================
+
 	Author: Javier Corbacho López
 	Year: 	2016/17
 	brief: 	Example of inherantace programming in c++. 
