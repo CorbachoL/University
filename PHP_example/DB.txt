@@ -1,0 +1,89 @@
+CREATE DATABASE i52coloj;
+
+USE i52coloj;
+
+CREATE TABLE employees(
+	id INTEGER NOT NULL,
+	nombre VARCHAR(256) NOT NULL,
+	apellidos VARCHAR(256) NOT NULL,
+	dni VARCHAR(256) NOT NULL,
+	departamento VARCHAR(256),
+	salario INTEGER,
+
+	PRIMARY KEY(id)
+);
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES('009', 'Jar Jar', 'Binks', '03159647-C', 'Ninguno', '0');
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES(
+	'020',
+	'Nicolas',
+	'Cage',
+	'87954131-C',
+	'Ventas',
+	'2150'
+);
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES(
+	'030',
+	'Ellen',
+	'Page',
+	'62541263-C',
+	'Seguridad',
+	'1680'
+);
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES(
+	'052',
+	'Antonio',
+	'Resines',
+	'56214529-Z',
+	'Direccion',
+	'3200'
+);
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES(
+	'070',
+	'Marivi',
+	'Bilbao',
+	'03203245-C',
+	'Direccion',
+	'3200'
+);
+
+INSERT INTO employees(id, nombre, apellidos, dni, departamento, salario)
+VALUES(
+	'089',
+	'Jaden',
+	'Smith',
+	'51595890-A',
+	'Marketing',
+	'1500'
+);
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE usuarios(
+	nombreUsuario VARCHAR(256) NOT NULL,
+	password VARCHAR(256) NOT NULL,
+	admin VARCHAR(256) NOT NULL,
+
+	PRIMARY KEY(nombreUsuario)
+);
+
+INSERT INTO usuarios(nombreUsuario, password, admin) VALUES('root', '4174a63566a9398ca83d97d8df565046', 'SI');
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE requests(
+	id INTEGER NOT NULL,
+	aumento INTEGER NOT NULL,
+
+	PRIMARY KEY(id)
+);
+
