@@ -1,14 +1,14 @@
-Distribución de "Willy en el desierto" 
+"Willy en el desierto" (Willy in the desert)
 ======================================
-Prácticas de Sistemas Inteligentes (Grado en Ingeniería Informática, UCO)
-Por: Carlos García Martínez, Manuel Jesús Marín Jiménez y Amelia Zafra Gómez
+Practices of Intelligent Systems (Grade on Computer Engineering, UCO, Spain)
+By: Carlos GarcÃ­a MartÃ­nez, Manuel JesÃºs MarÃ­n JimÃ©nez y Amelia Zafra GÃ³mez
 
-Sistema Inteligente realizado por: Javier Corbacho López y Eduardo Almeda Luna
+Intelligent Systems made by: Javier Corbacho LÃ³pez y Eduardo Almeda Luna
 
 Quick start:
 ------------
- - Copia el contenido del directorio correspondiente a tu sistema operativo en el mismo directorio donde se encuentre el fichero "WillyDemo_upd02.jar"
- - Escribe en el terminal: java -Djava.library.path=. -jar WillyDemo_upd02.jar -interactive
- - Pulsa el botón "All maps" para resolver todos los mapas existentes en el directorio "maps"
+ - Copy the contents of the directory corresponding to your operating system in the same directory where the file is located "WillyDemo_upd02.jar"
+ - Write in the terminal: java -Djava.library.path=. -jar WillyDemo_upd02.jar -interactive
+ - Press the "All maps" button to resolve all the maps located in "maps" folder
  
  
